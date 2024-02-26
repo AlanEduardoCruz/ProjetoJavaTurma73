@@ -11,6 +11,7 @@ public class Exercicio3 {
 		float salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiquido;
 		
 		Scanner leia = new Scanner(System.in);
+		leia.close();
 		
 		System.out.println("Informe o valor do salário bruto:");
 		salarioBruto = leia.nextFloat();

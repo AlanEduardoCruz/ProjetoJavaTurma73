@@ -13,6 +13,7 @@ public class Exercicio2 {
 		
 		
 		Scanner leia = new Scanner(System.in);
+		leia.close();
 		
 		System.out.println("Informe a primeira nota:");
 		primeiraNota = leia.nextFloat();
