@@ -2,7 +2,7 @@ package introducao;
 
 import java.util.Scanner;
 
-public class Exericicio5 {
+public class Exercicio5 {
 
 	public static void main(String[] args) {
 	
@@ -25,9 +25,11 @@ public class Exericicio5 {
 		divisao = a / b;
 		
 		System.out.println("Soma: " + soma);
-		System.out.println("Diferenca: " + diferenca);
-		System.out.println("Multiplicao: " + multiplicacao);
-		System.out.println("Divisao: " + divisao);
+		System.out.println("Diferenca: " + diferenca);	
+		System.out.printf("Multiplicao: %.2f%n" , multiplicacao);
+		System.out.printf("Divisao: %.3f%n " , divisao);
+		
+	
 		
 		leia.close();
 		
