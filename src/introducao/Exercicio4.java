@@ -5,11 +5,11 @@ public class Exercicio4 {
 
 	public static void main(String[] args) {
 		
-		//variaveis
-		
+		//variaveis		
 		float numero1, numero2, numero3, numero4, diferenca;
 		
 		Scanner leia = new Scanner(System.in);
+		leia.close();
 		
 		System.out.println("Informe o primeiro número:");
 		numero1 = leia.nextFloat();
@@ -25,9 +25,7 @@ public class Exercicio4 {
 		
 		diferenca = (numero1 *  numero2) - (numero3 * numero4);
 		
-		System.out.println("Diferença:" + diferenca);
-		
+		System.out.println("Diferença:" + diferenca);		
 
 	}
-
 }
