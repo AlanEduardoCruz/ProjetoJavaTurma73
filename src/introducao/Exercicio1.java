@@ -11,7 +11,7 @@ public class Exercicio1 {
 		
 		// Entrada de dados
 		Scanner leia = new Scanner(System.in);
-		leia.close();
+	
 		
 		// Solicitando dados para usuario
 		System.out.println("Informe o valor do seu salário:");
@@ -27,6 +27,8 @@ public class Exercicio1 {
 		
 		// imprimindo mensagem para usuario		
 		System.out.println("Novo salario: " + novoSalario);
+		
+		leia.close();
 		
 		
 		

@@ -13,7 +13,7 @@ public class Exercicio2 {
 		
 		
 		Scanner leia = new Scanner(System.in);
-		leia.close();
+		
 		
 		System.out.println("Informe a primeira nota:");
 		primeiraNota = leia.nextFloat();
@@ -30,6 +30,9 @@ public class Exercicio2 {
 		mediaFinal = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4;
 		
 		System.out.printf("Média final: %.2f " , mediaFinal);
+		
+		
+		leia.close();
 		
 
 	}
