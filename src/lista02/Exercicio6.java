@@ -67,7 +67,7 @@ public class Exercicio6 {
 		
 		System.out.println("Nome do colaborador: " + nome);		
 		System.out.println("Cargo: " + cargo);
-		System.out.println("Salário: " + novoSalario);
+		System.out.printf("Salário: %.2f" , novoSalario);
 		
 		leia.close();
 		

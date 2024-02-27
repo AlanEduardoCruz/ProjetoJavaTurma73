@@ -36,6 +36,7 @@ public class Exercicio7 {
 			multiplicacao = numero1 * numero2;
 			System.out.println(numero1 + " * " + numero2 + " = " + multiplicacao);
 			
+			
 			break;
 			
 		case 4:

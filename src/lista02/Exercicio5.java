@@ -67,7 +67,7 @@ public class Exercicio5 {
 		valorTotal = quantidade * preco;
 		
 		System.out.println("Produto: " + produto);
-		System.out.println("Valor total: R$ " + valorTotal);
+		System.out.printf("Valor total: R$ %.2f" , valorTotal);
 		
 		leia.close();
 		
