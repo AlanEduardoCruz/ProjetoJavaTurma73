@@ -9,6 +9,10 @@ public class Media {
 		Scanner leia = new Scanner(System.in);
 		
 		float nota1, nota2, media;
+		String nome;
+		
+		System.out.println("Digite seu nome");
+		nome = leia.next();
 		
 		System.out.println("Digite a primeira nota");
 		nota1 = leia.nextFloat();
