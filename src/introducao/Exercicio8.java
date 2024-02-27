@@ -55,6 +55,8 @@ public class Exercicio8 {
 				System.out.println(nota2 +  " Nota(s) de R$ 2,00");
 				
 				System.out.println(nota1 + " Nota(s) de R$ 1,00");
+				
+				leia.close();
 		
 		
 		
