@@ -45,7 +45,7 @@ public class Exercicio7 {
 			
 			
 			default:
-				System.out.println("Coódigo informado inválido");
+				System.out.println("Operação Inválida!");
 				return;
 			
 		}
