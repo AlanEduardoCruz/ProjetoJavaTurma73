@@ -2,7 +2,7 @@ package laco_repeticao;
 
 import java.util.Scanner;
 
-public class Exemplo6 {
+public class Exercicio6 {
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
@@ -29,7 +29,6 @@ public class Exemplo6 {
 			media = soma / contador;
 		}
 
-		
 		System.out.println("A média de todos os números múltiplos de 3 é: " + media);
 		System.out.println("Fim do loop");
 		leia.close();
