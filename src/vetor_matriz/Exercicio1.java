@@ -25,7 +25,7 @@ public class Exercicio1 {
 
 		}
 		if (indice == vetor.length)
-			System.out.println("O número " + numero + " está localizado na posição");
+			System.out.println("O número " + numero + " nao foi localizado ");
 		
 		
 	}
