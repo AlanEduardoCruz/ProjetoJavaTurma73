@@ -15,8 +15,8 @@ public class Exercicio1 {
 
 		String cor = " ";
 
+		System.out.println("Digite cinco cores:");
 		for (int indice = 0; indice < 5; indice++) {
-			System.out.println("Digite  a: " + (indice + 1) + "º cor:");
 			cor = leia.nextLine();
 			cores.add(cor);
 		}

@@ -15,8 +15,9 @@ public class Exercicio3 {
 
 		int valorDigitado;
 
+		System.out.println("Digite dez numeros:");
 		for (int i = 0; i < 10; i++) {
-			System.out.println("Digite o " + (i + 1) + "º número");
+			
 			valorDigitado = leia.nextInt();
 			setValores.add(valorDigitado);
 		}
@@ -24,6 +25,8 @@ public class Exercicio3 {
 		Iterator<Integer> interator = setValores.iterator();
 		
 		System.out.println("Listar dados do Set:" + setValores);
+		
+		leia.close();
 
 
 	}

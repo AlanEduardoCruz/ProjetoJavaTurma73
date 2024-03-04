@@ -46,6 +46,8 @@ public class Exercicio4 {
 		if (!valorEncontrado) {
 			System.out.println("O número " + valorDigitado + " não foi encontrado!");
 		}
+		
+		leia.close();
 
 	}
 
