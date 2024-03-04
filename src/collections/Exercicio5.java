@@ -1,5 +1,6 @@
 package collections;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -10,12 +11,12 @@ public class Exercicio5 {
 
 		Scanner leia = new Scanner(System.in);
 
-		// Criando fila usando LinkdList
-		Queue<String> fila = new LinkedList<String>();
-
 		// Variaveis
 		int opcao;
 		String nome = " ";
+
+		// Criando fila usando LinkdList
+		Queue<String> fila = new LinkedList<String>();
 
 		// loop principal para continuar executando o programa até que usuario digite
 		// "0"
@@ -26,15 +27,12 @@ public class Exercicio5 {
 			System.out.println("1 - Adicionar Cliente na Fila");
 			System.out.println("2 - Listar todos de clientes");
 			System.out.println("3 - Retirar Cliente da fila");
-			System.out.println("0 - O programa deve ser finalizado");
+			System.out.println("0 - Sair");
 			System.out.println("***************************************************************");
 			System.out.println("Entre com a opção desejada:");
 			opcao = leia.nextInt();
 
 			// Verificando a opcao selecionada pelo usuario
-			if (opcao == 0) {
-
-			}
 			switch (opcao) {
 
 			case 0:
@@ -52,11 +50,9 @@ public class Exercicio5 {
 				break;
 
 			case 2:
-				// Se a opcao for listar clientes, exibe a fila.
-				System.out.println("\nFila:" + fila);
 
 				if (fila.isEmpty()) {
-					System.out.println("A fila está vazia, no momento não há clientes para retirar.");
+					System.out.println("A pilha está vazia, no momento não há livros para retirar.");
 
 				} else {
 					System.out.println("\n fila: " + fila);
